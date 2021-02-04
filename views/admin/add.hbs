@@ -1,0 +1,31 @@
+<h1>Add New Employee</h1>
+<div class="row">
+    <form action="/admin" method="POST" class="col s12">
+        <div class="row">
+            <div class="input-field">
+                <input type="number" id="_id" name="_id">
+                <label for="_id">Employee Id</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field">
+                <input type="text" id="name" name="name">
+                <label for="name">Employee Name</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field">
+                <input type="text" id="department" name="department">
+                <label for="department">Employee Department</label>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <input type="submit" value="Save" class="btn">
+            <a href="/dashboard" class="btn orange">Cancel</a>
+        </div>
+    </form>
+</div>

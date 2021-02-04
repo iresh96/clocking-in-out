@@ -1,0 +1,26 @@
+<div class="container dash-container">
+    <h1>Welcome</h1>
+</div>
+
+<div class="container ">
+    <div id="txt" class="col-md-6 offset-md-3"></div>
+</div>
+
+<div class="container">
+    <form action="/clocking" method="POST" class="col s12">
+        <div class="row ">
+                    <div class="input-field col-md-6 offset-md-3">
+                        <input type="number" id="id" name="empId">
+                        <label for="id">Entert your Employee Id</label>
+                    </div>
+                    <div></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 offset-md-5">
+                <input type="submit" name="clock" value="in" class='btn '>
+                <input type="submit" name="clock" value="out" class='btn red '>
+            </div>
+        </div>
+        {{>_msg}}
+    </form>
+</div>

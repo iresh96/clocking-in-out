@@ -1,0 +1,23 @@
+<h1>Employees</h1>
+<div class="row">
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Department</th>
+      </tr>
+    </thead>
+        <tbody>
+        {{#each employees}}
+                <tr>
+                    <td>{{_id}}</td>
+                    <td>{{name}}</td>
+                    <td>{{department}}</td>
+                </tr>
+        {{else}}
+        <p>No employees to display</p>
+        {{/each}}
+        </tbody>
+    </table>
+</div>

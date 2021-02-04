@@ -1,0 +1,27 @@
+<h1>Clocking Detais</h1>
+<div class="row">
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Clock In time</th>
+        <th>Clock Out time</th>
+        <th>Over Time(hrs)</th>
+      </tr>
+    </thead>
+        <tbody>
+        {{#each clockings}}
+                <tr>
+                    <td>{{employee._id}}</td>
+                    <td>{{employee.name}}</td>
+                    <td>{{formatDate clockIn}}</td>
+                    <td>{{ifClockOut clockIn clockOut}}</td>
+                    <td>{{findOverTime clockIn clockOut}}</td>
+                </tr>
+        {{else}}
+        <p>No employees to display</p>
+        {{/each}}
+        </tbody>
+    </table>
+</div>
