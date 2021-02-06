@@ -4,10 +4,10 @@ Employee clocking In and out marking application with attendance report function
 
 ##Screen Shots.
 
-![Home Screen](screenshots/sr2)
+![Home Screen](screenshots/sr2.png)
 
-![Admin Panel](screenshots/sr1)
+![Admin Panel](screenshots/sr1.png)
 
-![Employee Details](screenshots/sr3)
+![Employee Details](screenshots/sr3.png)
 
-![Employee In/Out Details](screenshots/sr4)
+![Employee In/Out Details](screenshots/sr4.png)
