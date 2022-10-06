@@ -61,8 +61,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 1.42em;
-  color:#A7A1AE;
-  background-color:#1F2739;
+  color:#96919d;
+  background-color:#1c2333;
 }
 
 h1 {
@@ -70,7 +70,7 @@ h1 {
   font-weight: 300;
   line-height:1em;
   text-align: center;
-  color: #4DC3FA;
+  color: #5fc9fb;
 }
 
 h2 {
@@ -80,24 +80,24 @@ h2 {
   display: block;
   line-height:1em;
   padding-bottom: 2em;
-  color: #FB667A;
+  color: #e25c6e;
 }
 
 h2 a {
   font-weight: 700;
   text-transform: uppercase;
-  color: #FB667A;
+  color: #e25c6e;
   text-decoration: none;
 }
 
-.blue { color: #185875; }
-.yellow { color: #FFF842; }
+.blue { color: #164f69; }
+.yellow { color: #e6df3b; }
 
 .container th h1 {
 	  font-weight: bold;
 	  font-size: 1em;
   text-align: left;
-  color: #185875;
+  color: #164f69;
 }
 
 .container td {
@@ -125,19 +125,19 @@ h2 a {
 
 /* Background-color of the odd rows */
 .container tr:nth-child(odd) {
-	  background-color: #323C50;
+	  background-color: #2d3648;
 }
 
 /* Background-color of the even rows */
 .container tr:nth-child(even) {
-	  background-color: #2C3446;
+	  background-color: #282f3f;
 }
 
 .container th {
-	  background-color: #1F2739;
+	  background-color: #1c2333;
 }
 
-.container td:first-child { color: #FB667A; }
+.container td:first-child { color: #e25c6e; }
 
 .container tr:hover {
    background-color: #464A52;
