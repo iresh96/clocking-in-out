@@ -6,12 +6,12 @@ const Employee = require('../models/Employee')
 
 
 //Show add page
-router.get('/add',connectEnsureLogin.ensureLoggedIn('/auth/login'), (req, res) => {
+router.get('/add',connectEnsureLogin.ensureLoggedIn('/auth/login'), (_req, res) => {
     res.render('admin/add')
   })
 
 //Show admin Dashboard
-router.get('/',connectEnsureLogin.ensureLoggedIn('/auth/login'), async (req, res) => {
+router.get('/',connectEnsureLogin.ensureLoggedIn('/auth/login'), async (_req, res) => {
     res.render('admin')
 })
 
@@ -29,7 +29,7 @@ router.post('/',connectEnsureLogin.ensureLoggedIn('/auth/login'), async (req, re
 
   // @desc    Show all Employees
 // @route   GET /employee
-router.get('/employees',connectEnsureLogin.ensureLoggedIn('/auth/login'),async (req, res) => {
+router.get('/employees',connectEnsureLogin.ensureLoggedIn('/auth/login'),async (_req, res) => {
   try {
     const employees = await Employee.find()
       .sort({ _id: 'asc' })

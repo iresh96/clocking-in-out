@@ -34,7 +34,7 @@ router.post('/login', (req, res, next) => {
   })(req, res, next);
 });
 
-router.get('/login',(req, res) => res.render('login'));
+router.get('/login',(_req, res) => res.render('login'));
 
 router.get('/logout', function(req, res){
   req.logout();
