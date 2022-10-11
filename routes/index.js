@@ -44,8 +44,8 @@ router.post("/clocking", async (req, res) => {
       if (value == "in") {
         const i = data.length;
         if (data.length != []) {
-          const clockIn = getTimeStringpara(data[i - 1].clockIn);
-          const clockOut = getTimeStringpara(data[i - 1].clockOut);
+          const clockIn = getTimeStringPara(data[i - 1].clockIn);
+          const clockOut = getTimeStringPara(data[i - 1].clockOut);
           console.log(clockIn);
           console.log(clockOut);
           if (clockIn === clockOut) {
@@ -67,8 +67,8 @@ router.post("/clocking", async (req, res) => {
       if (value == "out") {
         const i = data.length;
         if (data.length != 0) {
-          const clockIn = getTimeStringpara(data[i - 1].clockIn);
-          const clockOut = getTimeStringpara(data[i - 1].clockOut);
+          const clockIn = getTimeStringPara(data[i - 1].clockIn);
+          const clockOut = a(data[i - 1].clockOut);
           if (clockIn == clockOut) {
             const id = data[i - 1]._id;
             const date = new Date();
@@ -113,7 +113,7 @@ function getTimeString() {
   return time_string;
 }
 
-function getTimeStringpara(date) {
+function getTimeStringPara(date) {
   const h = date.getHours();
   let m = date.getMinutes();
   let s = date.getSeconds();
