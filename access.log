@@ -320,3 +320,6 @@
 ::1 - - [04/Feb/2021:07:18:22 +0000] "GET /auth/logout HTTP/1.1" 302 46 "http://localhost:3000/admin/employees" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.56"
 ::1 - - [04/Feb/2021:07:18:25 +0000] "GET / HTTP/1.1" 200 4319 "http://localhost:3000/admin/employees" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.56"
 ::1 - - [04/Feb/2021:07:18:25 +0000] "GET /css/style.css HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.56"
+::1 - - [25/Oct/2022:04:16:43 +0000] "GET / HTTP/1.1" 200 4223 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+::1 - - [25/Oct/2022:04:16:43 +0000] "GET /css/style.css HTTP/1.1" 200 2558 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+::1 - - [25/Oct/2022:04:16:49 +0000] "GET /dashboard HTTP/1.1" 404 148 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
