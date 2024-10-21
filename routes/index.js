@@ -29,7 +29,7 @@ router.get(
 );
 
 //Make Clocking
-//Post /clocking
+//Post Clocking
 router.post("/clocking", async (req, res) => {
   const value = req.body.clock;
   const id = req.body.empId;
@@ -133,7 +133,7 @@ function getTimeStringPara(date) {
 function checkTime(i) {
   if (i < 10) {
     i = "0" + i;
-  } // add zero in front of numbers < 10
+  } // Add a zero in front of numbers less than 10.
   return i;
 }
 module.exports = router;

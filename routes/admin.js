@@ -37,8 +37,7 @@ router.post(
   }
 );
 
-// @desc    Show all Employees
-// @route   GET /employee
+//GET All Employees
 router.get(
   "/employees",
   connectEnsureLogin.ensureLoggedIn("/auth/login"),

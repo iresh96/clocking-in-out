@@ -11,7 +11,7 @@ passport.use(UserDetails.createStrategy());
 passport.serializeUser(UserDetails.serializeUser());
 passport.deserializeUser(UserDetails.deserializeUser());
 
-//post login details
+//register user login details
 router.post("/login", (req, res, next) => {
   passport.authenticate("local", (err, user, info) => {
     if (err) {
